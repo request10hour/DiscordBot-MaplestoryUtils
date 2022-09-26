@@ -1,7 +1,7 @@
 {
   "name": "fartpoopee",
   "version": "1.0.0",
-  "description": "",
+  "description": "ctrl shift p -> reload window",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,13 @@
   },
   "devDependencies": {
     "eslint": "^8.24.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/request10hour/fartpoopee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/request10hour/fartpoopee/issues"
+  },
+  "homepage": "https://github.com/request10hour/fartpoopee#readme"
 }

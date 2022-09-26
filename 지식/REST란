@@ -1,0 +1,68 @@
+declare class REST extends EventEmitter {
+    readonly cdn: CDN;
+    readonly requestManager: RequestManager;
+    constructor(options?: Partial<RESTOptions>);
+    /**
+     * Gets the agent set for this instance
+     */
+    getAgent(): Dispatcher | null;
+    /**
+     * Sets the default agent to use for requests performed by this instance
+     *
+     * @param agent - Sets the agent to use
+     */
+    setAgent(agent: Dispatcher): this;
+    /**
+     * Sets the authorization token that should be used for requests
+     *
+     * @param token - The authorization token to use
+     */
+    setToken(token: string): this;
+    /**
+     * Runs a get request from the api
+     *
+     * @param fullRoute - The full route to query
+     * @param options - Optional request options
+     */
+    get(fullRoute: RouteLike, options?: RequestData): Promise<unknown>;
+    /**
+     * Runs a delete request from the api
+     *
+     * @param fullRoute - The full route to query
+     * @param options - Optional request options
+     */
+    delete(fullRoute: RouteLike, options?: RequestData): Promise<unknown>;
+    /**
+     * Runs a post request from the api
+     *
+     * @param fullRoute - The full route to query
+     * @param options - Optional request options
+     */
+    post(fullRoute: RouteLike, options?: RequestData): Promise<unknown>;
+    /**
+     * Runs a put request from the api
+     *
+     * @param fullRoute - The full route to query
+     * @param options - Optional request options
+     */
+    put(fullRoute: RouteLike, options?: RequestData): Promise<unknown>;
+    /**
+     * Runs a patch request from the api
+     *
+     * @param fullRoute - The full route to query
+     * @param options - Optional request options
+     */
+    patch(fullRoute: RouteLike, options?: RequestData): Promise<unknown>;
+    /**
+     * Runs a request from the api
+     *
+     * @param options - Request options
+     */
+    request(options: InternalRequest): Promise<unknown>;
+    /**
+     * Runs a request from the API, yielding the raw Response object
+     *
+     * @param options - Request options
+     */
+    raw(options: InternalRequest): Promise<Dispatcher.ResponseData>;
+}
