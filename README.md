@@ -55,4 +55,9 @@ ctrl shift p -> reload window
 		}
 	}
 	```
-5.
+5. 콜백, 앞에 붙여서 타입을 지정
+	```javascript
+		/**
+		 * @param {import("discord.js").Interaction} [interaction]
+		 */
+	```

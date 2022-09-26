@@ -1,0 +1,203 @@
+Ready! Logged in as js-nolcom#3292
+Ready! Logged in as js-nolcom#3292
+이사장#8597 in #하뚜 triggered an interaction.
+Ready! Logged in as js-nolcom#3292
+Ready! Logged in as js-nolcom#3292
+이사장#8597 in #하뚜 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+Ready! Logged in as js-nolcom#3292
+이사장#8597 in #하뚜 triggered an interaction.
+엉어어왕#9612 in #하뚜 triggered an interaction.
+Ready! Logged in as js-nolcom#3292
+Ready! Logged in as js-nolcom#3292
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+Ready! Logged in as js-nolcom#3292
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+DiscordAPIError[10062]: Unknown interaction
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Object.execute (/home/opc/fartpoopee/commands/똥.js:14:3)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:28:3) {
+  requestBody: { files: [], json: { type: 4, data: [Object] } },
+  rawError: { message: 'Unknown interaction', code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024023542959984721/aW50ZXJhY3Rpb246MTAyNDAyMzU0Mjk1OTk4NDcyMTo1S0hLb1VxdWJZYzdpVnlmc3dYNmhWRHkxY2l1VlRzdGg2MTNRamlBVkxzVUlaZ1Y1ZFBMdVZsRElYZ3pwbTR2WTVFRGt1MEs3WE9ocjRiSk1hbVduZER0R1JneXRmcmdSdXRpOGlkbnc0V0VJUHg5ZlUwb0pCdm1JSzFHYXd1eQ/callback'
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:32:3)
+Emitted 'error' event on Client instance at:
+    at emitUnhandledRejectionOrErr (node:events:394:10)
+    at processTicksAndRejections (node:internal/process/task_queues:85:21) {
+  requestBody: {
+    files: [],
+    json: {
+      type: 4,
+      data: {
+        content: 'There was an error while executing this command!',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: undefined,
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: 64,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined,
+        thread_name: undefined
+      }
+    }
+  },
+  rawError: {
+    message: 'Interaction has already been acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024023542959984721/aW50ZXJhY3Rpb246MTAyNDAyMzU0Mjk1OTk4NDcyMTo1S0hLb1VxdWJZYzdpVnlmc3dYNmhWRHkxY2l1VlRzdGg2MTNRamlBVkxzVUlaZ1Y1ZFBMdVZsRElYZ3pwbTR2WTVFRGt1MEs3WE9ocjRiSk1hbVduZER0R1JneXRmcmdSdXRpOGlkbnc0V0VJUHg5ZlUwb0pCdm1JSzFHYXd1eQ/callback'
+}
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+엉어어왕#9612 in #하뚜 triggered an interaction.
+엉어어왕#9612 in #하뚜 triggered an interaction.
+엉어어왕#9612 in #하뚜 triggered an interaction.
+이사장#8597 in #하뚜 triggered an interaction.
+엉어어왕#9612 in #하뚜 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743
+        throw new DiscordAPIError(data, "code" in data ? data.code : data.error, status, method, url, requestData);
+              ^
+
+DiscordAPIError[10062]: Unknown interaction
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ButtonInteraction.update (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:226:5) {
+  requestBody: {
+    files: [],
+    json: {
+      type: 7,
+      data: {
+        content: '똥치워땨 휴',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: [],
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: undefined,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined,
+        thread_name: undefined
+      }
+    }
+  },
+  rawError: { message: 'Unknown interaction', code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024026808326299680/aW50ZXJhY3Rpb246MTAyNDAyNjgwODMyNjI5OTY4MDpIWVliWE9DS1hnUHk2Z0M1RW5KcFFSa2pDVUdHU2JsQkRjSHlLSlpwdGhtT0tmMVFwaGdZSGRmeUthMmFpV2Q4YjBoTjVwbWh0a0VGRmVEajJ0dzNyS0M4aHQ0TGFkbEtQVVR5MVZjbDFrSG5ybndOblBna1JlSTdaUlZ3TXZOZQ/callback'
+}
+Ready! Logged in as js-nolcom#3292
+Ready! Logged in as js-nolcom#3292
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+이사장#8597 in #일반 triggered an interaction.
+DiscordAPIError[10062]: Unknown interaction
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Object.execute (/home/opc/fartpoopee/commands/똥.js:14:3)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:28:3) {
+  requestBody: { files: [], json: { type: 4, data: [Object] } },
+  rawError: { message: 'Unknown interaction', code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024048437957759098/aW50ZXJhY3Rpb246MTAyNDA0ODQzNzk1Nzc1OTA5ODpUS3hGQjBqV0EyY0hwM3VPSE9XWmdyWHhlc0RoRU1BS1VpaTRWd0FiYlk5NU9jMnNRd0ZYcUlIRmlId1hNR0hUeHZEdVQ4b2RUMzd6Z1UwQ2dkZWZYSFlpSDhvUHR0N1pzRlBwSEpEOXlJbXF5cUN4ZEwyQ0JZUU1pWkYwUmlscA/callback'
+}
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:32:3)
+Emitted 'error' event on Client instance at:
+    at emitUnhandledRejectionOrErr (node:events:394:10)
+    at processTicksAndRejections (node:internal/process/task_queues:85:21) {
+  requestBody: {
+    files: [],
+    json: {
+      type: 4,
+      data: {
+        content: 'There was an error while executing this command!',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: undefined,
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: 64,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined,
+        thread_name: undefined
+      }
+    }
+  },
+  rawError: {
+    message: 'Interaction has already been acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024048437957759098/aW50ZXJhY3Rpb246MTAyNDA0ODQzNzk1Nzc1OTA5ODpUS3hGQjBqV0EyY0hwM3VPSE9XWmdyWHhlc0RoRU1BS1VpaTRWd0FiYlk5NU9jMnNRd0ZYcUlIRmlId1hNR0hUeHZEdVQ4b2RUMzd6Z1UwQ2dkZWZYSFlpSDhvUHR0N1pzRlBwSEpEOXlJbXF5cUN4ZEwyQ0JZUU1pWkYwUmlscA/callback'
+}

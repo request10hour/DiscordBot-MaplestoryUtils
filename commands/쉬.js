@@ -1,14 +1,19 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('똥의_모양을_적어주세요')
-		.setDescription('addStringOption method test')
-		.addStringOption(option =>
-			option.setName('똥의_모양')
-				.setDescription('똥은 여러가지 모양이 있다')
-				.setRequired(true)),
+		.setName('쉬싸기')
+		.setDescription('똥싸면 자동으로 나오는데 굳이 단독선택을'),
+	/**
+	 * @param {import("discord.js").Interaction} [interaction]
+	 */
 	async execute(interaction) {
-		await interaction.reply(`${interaction.options.getString('똥의_모양')}모양의 똥을 쌌군여...`);
+		const row = new ActionRowBuilder().addComponents(
+			new ButtonBuilder()
+			.setCustomId('물내리기')
+			.setLabel('물내리기')
+			.setStyle(ButtonStyle.Primary),
+		);
+		await interaction.reply({content: '쉬~', components: [row]});
 	},
 };
