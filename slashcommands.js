@@ -1,15 +1,20 @@
+// slashCommand를 봇의 명령어 리스트에 등록하는 과정
+
 const { REST, Routes } = require('discord.js');
 const { token, clientId } = require('./config.json');
 const fs = require('node:fs');
 
 const commands = [];
+
 // readdirSync 인자로 받은 디렉토리 내부 파일을 읽음
 // filter 각 file(파일명)에 대해 '.js'로 끝나는 파일들만 필터
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+
 // commandFiles에는 '.js'로 끝나는 파일명들이 들어가있음, 각 파일명을 돌면서
 // 각 파일의 module.exports -> require로 받아옴
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
+
 	// 데이터를 json형식의 문자열로 변환하여 commands에 push함
 	// SlashCommandBuilder가 알아서 해줌
 	commands.push(command.data.toJSON());
@@ -25,6 +30,8 @@ const rest = new REST({ version: '10' }).setToken(token);
 		console.log(`Started refreshing ${commands.length} application (/) commands.`);
 
 		// put()메소드가 promise리턴 * Runs a put request from the api
+		// fullRoute(Routes.applicationCommands), RequestData({body: commands})를 인자로
+		// 이 작업이 완료되면, 디스코드에서 봇 명령어 자동완성되기 시작함 (기능은 X)
 		const data = await rest.put(
 			Routes.applicationCommands(clientId),
 			{ body: commands },

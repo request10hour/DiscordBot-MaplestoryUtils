@@ -61,3 +61,4 @@ ctrl shift p -> reload window
 		 * @param {import("discord.js").Interaction} [interaction]
 		 */
 	```
+6. new ButtonBuilder()에서 CustomId, Label, Style은 필수요소임!

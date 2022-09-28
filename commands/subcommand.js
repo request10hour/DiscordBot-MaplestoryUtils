@@ -12,5 +12,14 @@ module.exports = {
 		.addSubcommand(subcommand =>
 			subcommand
 				.setName('server')
-				.setDescription('Info about the server'))
+				.setDescription('Info about the server')),
+	/**
+	 * @param {import("discord.js").Interaction} [interaction]
+	 */
+	async execute(interaction){
+		if (interaction.options.getSubcommand() === 'user')
+			interaction.reply(`${interaction.user.tag}`);
+		else if (interaction.options.getSubcommand() === 'server')
+			interaction.reply(`${interaction.guild.name}(${interaction.guildId})`);
+	}
 }

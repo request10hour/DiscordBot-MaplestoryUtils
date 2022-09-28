@@ -1,36 +1,204 @@
 Ready! Logged in as js-nolcom#3292
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)엉어어왕#9612 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)엉어어왕#9612 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)엉어어왕#9612 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)엉어어왕#9612 in #하뚜 triggered an interaction.
 Ready! Logged in as js-nolcom#3292
-이사장#8597 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
 Ready! Logged in as js-nolcom#3292
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:46:37 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+TypeError: Cannot read properties of undefined (reading 'commandName')
+    at Object.execute (/home/opc/fartpoopee/commands/subcommand.js:20:33)
+    at Client.<anonymous> (/home/opc/fartpoopee/index.js:30:17)
+    at Client.emit (node:events:525:35)
+    at InteractionCreateAction.handle (/home/opc/fartpoopee/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:481:22)
+    at WebSocketShard.onMessage (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:321:10)
+    at WebSocket.onMessage (/home/opc/fartpoopee/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:513:28)
 Ready! Logged in as js-nolcom#3292
-이사장#8597 in #하뚜 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-Ready! Logged in as js-nolcom#3292
-이사장#8597 in #하뚜 triggered an interaction.
-엉어어왕#9612 in #하뚜 triggered an interaction.
-Ready! Logged in as js-nolcom#3292
-Ready! Logged in as js-nolcom#3292
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-Ready! Logged in as js-nolcom#3292
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:46:41 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+TypeError: Cannot read properties of undefined (reading 'commandName')
+    at Object.execute (/home/opc/fartpoopee/commands/subcommand.js:20:33)
+    at Client.<anonymous> (/home/opc/fartpoopee/index.js:30:17)
+    at Client.emit (node:events:525:35)
+    at InteractionCreateAction.handle (/home/opc/fartpoopee/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:481:22)
+    at WebSocketShard.onMessage (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:321:10)
+    at WebSocket.onMessage (/home/opc/fartpoopee/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:513:28)
+Thu Sep 29 2022 01:46:37 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+TypeError: Cannot read properties of undefined (reading 'commandName')
+    at Object.execute (/home/opc/fartpoopee/commands/subcommand.js:20:33)
+    at Client.<anonymous> (/home/opc/fartpoopee/index.js:30:17)
+    at Client.emit (node:events:525:35)
+    at InteractionCreateAction.handle (/home/opc/fartpoopee/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:481:22)
+    at WebSocketShard.onMessage (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:321:10)
+    at WebSocket.onMessage (/home/opc/fartpoopee/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:513:28)
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
 DiscordAPIError[10062]: Unknown interaction
     at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
     at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
     at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
-    at async Object.execute (/home/opc/fartpoopee/commands/똥.js:14:3)
-    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:28:3) {
-  requestBody: { files: [], json: { type: 4, data: [Object] } },
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:34:3)
+Emitted 'error' event on Client instance at:
+    at emitUnhandledRejectionOrErr (node:events:394:10)
+    at processTicksAndRejections (node:internal/process/task_queues:85:21) {
+  requestBody: {
+    files: [],
+    json: {
+      type: 4,
+      data: {
+        content: 'There was an error while executing this command!',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: undefined,
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: 64,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined,
+        thread_name: undefined
+      }
+    }
+  },
   rawError: { message: 'Unknown interaction', code: 10062 },
   code: 10062,
   status: 404,
   method: 'POST',
-  url: 'https://discord.com/api/v10/interactions/1024023542959984721/aW50ZXJhY3Rpb246MTAyNDAyMzU0Mjk1OTk4NDcyMTo1S0hLb1VxdWJZYzdpVnlmc3dYNmhWRHkxY2l1VlRzdGg2MTNRamlBVkxzVUlaZ1Y1ZFBMdVZsRElYZ3pwbTR2WTVFRGt1MEs3WE9ocjRiSk1hbVduZER0R1JneXRmcmdSdXRpOGlkbnc0V0VJUHg5ZlUwb0pCdm1JSzFHYXd1eQ/callback'
+  url: 'https://discord.com/api/v10/interactions/1024723923759288320/aW50ZXJhY3Rpb246MTAyNDcyMzkyMzc1OTI4ODMyMDo5d3FkbzhROEE5THhRUk9pZEJOaHVFM0dqejNYczJoekJXOEVEbTdXMTJtVjRJZ0lxR2tuRThIVXg1MXVLS05wSFpIbDRPSkhaSFFUSlNMTjhld2pXcnJRMTdTc3VTd0s1N1d5YmlNTTJLREZCSkhBaHU2QUlSbDJkblBJTlg4bg/callback'
+}
+Thu Sep 29 2022 01:46:41 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+TypeError: Cannot read properties of undefined (reading 'commandName')
+    at Object.execute (/home/opc/fartpoopee/commands/subcommand.js:20:33)
+    at Client.<anonymous> (/home/opc/fartpoopee/index.js:30:17)
+    at Client.emit (node:events:525:35)
+    at InteractionCreateAction.handle (/home/opc/fartpoopee/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:481:22)
+    at WebSocketShard.onMessage (/home/opc/fartpoopee/node_modules/discord.js/src/client/websocket/WebSocketShard.js:321:10)
+    at WebSocket.onMessage (/home/opc/fartpoopee/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:513:28)
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+DiscordAPIError[10062]: Unknown interaction
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:34:3)
+Emitted 'error' event on Client instance at:
+    at emitUnhandledRejectionOrErr (node:events:394:10)
+    at processTicksAndRejections (node:internal/process/task_queues:85:21) {
+  requestBody: {
+    files: [],
+    json: {
+      type: 4,
+      data: {
+        content: 'There was an error while executing this command!',
+        tts: false,
+        nonce: undefined,
+        embeds: undefined,
+        components: undefined,
+        username: undefined,
+        avatar_url: undefined,
+        allowed_mentions: undefined,
+        flags: 64,
+        message_reference: undefined,
+        attachments: undefined,
+        sticker_ids: undefined,
+        thread_name: undefined
+      }
+    }
+  },
+  rawError: { message: 'Unknown interaction', code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024724100935077928/aW50ZXJhY3Rpb246MTAyNDcyNDEwMDkzNTA3NzkyODpURGszWWJCQlJ4WUNTaXBwRWtmd0dMTlV5c2xlSzhxMWxRaWNlbENCWElYTWV0YTRmcldtbUhhQk44Y2VqcU9BdXhmQ0d5Tmc3d3Fnak8zVU1lRGlybXdkZjR2a3ltNUNpb2xqclNKMXgwUWR3eGVOZlVTYlZaMnAybndrVjdjTA/callback'
+}
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 01:39:43 GMT+0900 (Korean Standard Time)엉어어왕#9612 in #하뚜 triggered an interaction.
+Thu Sep 29 2022 01:44:04 GMT+0900 (Korean Standard Time)엉어어왕#9612 in #하뚜 triggered an interaction.
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Object.execute (/home/opc/fartpoopee/commands/방구.js:23:3)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:30:3) {
+  requestBody: { files: [], json: { type: 4, data: [Object] } },
+  rawError: {
+    message: 'Interaction has already been acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024725533851910255/aW50ZXJhY3Rpb246MTAyNDcyNTUzMzg1MTkxMDI1NTp5ajhkakFXTm5NTVBwRkFhSkNDWm54dXFsaWZaMGJlVzZ3aVlDNTllTURSQjhGbnAxMkx1Z01pMWRkVmVoTHk2M1VDRVY3bEJRWGNIUXdRbE1EYWdJSjBmQTFHMzNibnh0djA3eU5OSktCZ05YOWtiUVYwaHFOZ09ORkxOUVNZdw/callback'
+}
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
+    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
+    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
+    at async Object.execute (/home/opc/fartpoopee/commands/방구.js:23:3)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:30:3) {
+  requestBody: { files: [], json: { type: 4, data: [Object] } },
+  rawError: {
+    message: 'Interaction has already been acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1024725533851910255/aW50ZXJhY3Rpb246MTAyNDcyNTUzMzg1MTkxMDI1NTp5ajhkakFXTm5NTVBwRkFhSkNDWm54dXFsaWZaMGJlVzZ3aVlDNTllTURSQjhGbnAxMkx1Z01pMWRkVmVoTHk2M1VDRVY3bEJRWGNIUXdRbE1EYWdJSjBmQTFHMzNibnh0djA3eU5OSktCZ05YOWtiUVYwaHFOZ09ORkxOUVNZdw/callback'
 }
 node:events:491
       throw er; // Unhandled 'error' event
@@ -42,7 +210,7 @@ DiscordAPIError[40060]: Interaction has already been acknowledged.
     at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
     at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
     at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
-    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:32:3)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:34:3)
 Emitted 'error' event on Client instance at:
     at emitUnhandledRejectionOrErr (node:events:394:10)
     at processTicksAndRejections (node:internal/process/task_queues:85:21) {
@@ -74,88 +242,7 @@ Emitted 'error' event on Client instance at:
   code: 40060,
   status: 400,
   method: 'POST',
-  url: 'https://discord.com/api/v10/interactions/1024023542959984721/aW50ZXJhY3Rpb246MTAyNDAyMzU0Mjk1OTk4NDcyMTo1S0hLb1VxdWJZYzdpVnlmc3dYNmhWRHkxY2l1VlRzdGg2MTNRamlBVkxzVUlaZ1Y1ZFBMdVZsRElYZ3pwbTR2WTVFRGt1MEs3WE9ocjRiSk1hbVduZER0R1JneXRmcmdSdXRpOGlkbnc0V0VJUHg5ZlUwb0pCdm1JSzFHYXd1eQ/callback'
-}
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-엉어어왕#9612 in #하뚜 triggered an interaction.
-엉어어왕#9612 in #하뚜 triggered an interaction.
-엉어어왕#9612 in #하뚜 triggered an interaction.
-이사장#8597 in #하뚜 triggered an interaction.
-엉어어왕#9612 in #하뚜 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743
-        throw new DiscordAPIError(data, "code" in data ? data.code : data.error, status, method, url, requestData);
-              ^
-
-DiscordAPIError[10062]: Unknown interaction
-    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
-    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
-    at async ButtonInteraction.update (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:226:5) {
-  requestBody: {
-    files: [],
-    json: {
-      type: 7,
-      data: {
-        content: '똥치워땨 휴',
-        tts: false,
-        nonce: undefined,
-        embeds: undefined,
-        components: [],
-        username: undefined,
-        avatar_url: undefined,
-        allowed_mentions: undefined,
-        flags: undefined,
-        message_reference: undefined,
-        attachments: undefined,
-        sticker_ids: undefined,
-        thread_name: undefined
-      }
-    }
-  },
-  rawError: { message: 'Unknown interaction', code: 10062 },
-  code: 10062,
-  status: 404,
-  method: 'POST',
-  url: 'https://discord.com/api/v10/interactions/1024026808326299680/aW50ZXJhY3Rpb246MTAyNDAyNjgwODMyNjI5OTY4MDpIWVliWE9DS1hnUHk2Z0M1RW5KcFFSa2pDVUdHU2JsQkRjSHlLSlpwdGhtT0tmMVFwaGdZSGRmeUthMmFpV2Q4YjBoTjVwbWh0a0VGRmVEajJ0dzNyS0M4aHQ0TGFkbEtQVVR5MVZjbDFrSG5ybndOblBna1JlSTdaUlZ3TXZOZQ/callback'
-}
-Ready! Logged in as js-nolcom#3292
-Ready! Logged in as js-nolcom#3292
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-이사장#8597 in #일반 triggered an interaction.
-DiscordAPIError[10062]: Unknown interaction
-    at SequentialHandler.runRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:743:15)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
-    at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
-    at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
-    at async Object.execute (/home/opc/fartpoopee/commands/똥.js:14:3)
-    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:28:3) {
-  requestBody: { files: [], json: { type: 4, data: [Object] } },
-  rawError: { message: 'Unknown interaction', code: 10062 },
-  code: 10062,
-  status: 404,
-  method: 'POST',
-  url: 'https://discord.com/api/v10/interactions/1024048437957759098/aW50ZXJhY3Rpb246MTAyNDA0ODQzNzk1Nzc1OTA5ODpUS3hGQjBqV0EyY0hwM3VPSE9XWmdyWHhlc0RoRU1BS1VpaTRWd0FiYlk5NU9jMnNRd0ZYcUlIRmlId1hNR0hUeHZEdVQ4b2RUMzd6Z1UwQ2dkZWZYSFlpSDhvUHR0N1pzRlBwSEpEOXlJbXF5cUN4ZEwyQ0JZUU1pWkYwUmlscA/callback'
+  url: 'https://discord.com/api/v10/interactions/1024725533851910255/aW50ZXJhY3Rpb246MTAyNDcyNTUzMzg1MTkxMDI1NTp5ajhkakFXTm5NTVBwRkFhSkNDWm54dXFsaWZaMGJlVzZ3aVlDNTllTURSQjhGbnAxMkx1Z01pMWRkVmVoTHk2M1VDRVY3bEJRWGNIUXdRbE1EYWdJSjBmQTFHMzNibnh0djA3eU5OSktCZ05YOWtiUVYwaHFOZ09ORkxOUVNZdw/callback'
 }
 node:events:491
       throw er; // Unhandled 'error' event
@@ -167,7 +254,7 @@ DiscordAPIError[40060]: Interaction has already been acknowledged.
     at async SequentialHandler.queueRequest (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:549:14)
     at async REST.request (/home/opc/fartpoopee/node_modules/@discordjs/rest/dist/index.js:988:22)
     at async ChatInputCommandInteraction.reply (/home/opc/fartpoopee/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:111:5)
-    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:32:3)
+    at async Client.<anonymous> (/home/opc/fartpoopee/index.js:34:3)
 Emitted 'error' event on Client instance at:
     at emitUnhandledRejectionOrErr (node:events:394:10)
     at processTicksAndRejections (node:internal/process/task_queues:85:21) {
@@ -199,5 +286,8 @@ Emitted 'error' event on Client instance at:
   code: 40060,
   status: 400,
   method: 'POST',
-  url: 'https://discord.com/api/v10/interactions/1024048437957759098/aW50ZXJhY3Rpb246MTAyNDA0ODQzNzk1Nzc1OTA5ODpUS3hGQjBqV0EyY0hwM3VPSE9XWmdyWHhlc0RoRU1BS1VpaTRWd0FiYlk5NU9jMnNRd0ZYcUlIRmlId1hNR0hUeHZEdVQ4b2RUMzd6Z1UwQ2dkZWZYSFlpSDhvUHR0N1pzRlBwSEpEOXlJbXF5cUN4ZEwyQ0JZUU1pWkYwUmlscA/callback'
+  url: 'https://discord.com/api/v10/interactions/1024725533851910255/aW50ZXJhY3Rpb246MTAyNDcyNTUzMzg1MTkxMDI1NTp5ajhkakFXTm5NTVBwRkFhSkNDWm54dXFsaWZaMGJlVzZ3aVlDNTllTURSQjhGbnAxMkx1Z01pMWRkVmVoTHk2M1VDRVY3bEJRWGNIUXdRbE1EYWdJSjBmQTFHMzNibnh0djA3eU5OSktCZ05YOWtiUVYwaHFOZ09ORkxOUVNZdw/callback'
 }
+Ready! Logged in as 방귀펄슨#3292
+Thu Sep 29 2022 02:06:31 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.
+Thu Sep 29 2022 02:06:31 GMT+0900 (Korean Standard Time)이사장#8597 in #일반 triggered an interaction.

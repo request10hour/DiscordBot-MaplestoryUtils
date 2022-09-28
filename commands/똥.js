@@ -2,7 +2,7 @@ const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, Butto
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('똥싸기')
+		.setName('똥싸기싸기')
 		.setDescription('휴지필수'),
 	/**
 	 * @param {import("discord.js").Interaction} [interaction]

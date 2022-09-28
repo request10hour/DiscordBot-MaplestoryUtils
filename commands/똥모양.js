@@ -13,11 +13,16 @@ module.exports = {
 					{ name: '세모', value: '삼각김밥가튼' },
 					{ name: '동그라미', value: '동글동글한' },
 					{ name: '뚱샘', value: '김뚱이밤새눙' },
+					{ name: '메떵', value: '떠이가메롱하눙' },
 				)),
 	/**
 	 * @param {import("discord.js").Interaction} [interaction]
 	 */
 	async execute(interaction) {
+		const string = interaction.options.getString('똥의_모양');
+		if (string === '떠이가메롱하눙')
+		await interaction.reply({content: `${interaction.options.getString('똥의_모양')}모양의 똥을 쌌군여...😝`});
+		else
 		await interaction.reply(`${interaction.options.getString('똥의_모양')}모양의 똥을 쌌군여...`);
 	},
 };

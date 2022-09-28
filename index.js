@@ -7,6 +7,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.commands = new Collection(); // Collection is a class that extends JavaScript's native Map
 
+// command를 client에 등록하는 과정
 {
 	const commandsPath = path.join(__dirname, 'commands');
 	const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
@@ -17,6 +18,7 @@ client.commands = new Collection(); // Collection is a class that extends JavaSc
 	}
 }
 
+// 위의 command와 같은 파일 내부의 interaction 등록하는 과정
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
@@ -33,6 +35,7 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
+// 위의 command와 별개로 interaction 등록하는 과정
 {
 	const eventsPath = path.join(__dirname, 'events');
 	const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
