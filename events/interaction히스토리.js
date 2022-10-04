@@ -55,7 +55,6 @@ module.exports = {
 				const expPercent = p_expHistoryLabels[i].exp;
 				expPrint.push('\n' + expDate + ' : ' + expLevel + '레벨 (' + expPercent + '%)');
 			}
-			console.log('undefined(' + interaction.id + ') ' + interaction.user.tag + ' interaction: history');
 			await interaction.update({ content: msg + '\n' + expPrint, components: [] });
 		}
 	},

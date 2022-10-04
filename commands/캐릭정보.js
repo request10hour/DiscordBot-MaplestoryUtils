@@ -21,6 +21,13 @@ module.exports = {
 				.setStyle(ButtonStyle.Primary)
 				.setEmoji('📔'),
 		)
+		const row0 = new ActionRowBuilder().addComponents(
+			new ButtonBuilder()
+				.setCustomId('최신정보가아니에요')
+				.setLabel('최신정보가아니에요')
+				.setStyle(ButtonStyle.Danger)
+				.setEmoji('🔁'),
+		)
 		try {
 			const charname = interaction.options.getString('캐릭터이름');
 			const sync = await axios.get('https://maple.gg/u/' + encodeURIComponent(charname) + '/sync');
@@ -36,7 +43,7 @@ module.exports = {
 			await interaction.reply({
 				content:
 					`**이름** ${namesection.eq(1).text()}\n**직업** ${out[1]}\n**서버** ${namesection.eq(0).attr('alt')}\n\
-${out[0]}`, files: [charimage.attr('src')], components: [row]
+${out[0]}`, files: [charimage.attr('src')], components: [row, row0]
 			});
 		} catch (error) {
 			await interaction.reply('검색 오류');
