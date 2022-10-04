@@ -62,3 +62,9 @@ ctrl shift p -> reload window
 		 */
 	```
 6. new ButtonBuilder()에서 CustomId, Label, Style은 필수요소임!
+7. axios(http request), cheerio(dom구성)를 이용하여 크롤링
+8. 프레이의 요구
+	경험치히스토리
+	무릉, 유니온
+	보스 체력, 보상 (무릉 층수별 보스 가능)
+

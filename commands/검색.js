@@ -12,6 +12,6 @@ module.exports = {
 	 * @param {import("discord.js").Interaction} [interaction]
 	 */
 	async execute(interaction) {
-		await interaction.reply({content: `https://www.google.com/search?q=${interaction.options.getString('구글_검색').replaceAll(/ /g, '%20')}`})
+		await interaction.reply({content: `https://www.google.com/search?q=${interaction.options.getString('구글_검색').replaceAll(' ', '%20')}`})
 	},
 };
