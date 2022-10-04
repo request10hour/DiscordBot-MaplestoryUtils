@@ -41,13 +41,13 @@ module.exports = {
 			// / /g : 정규식 틀
 			// \[ : 대괄호로 시작
 			// \] : 대괄호로 끝남
-			// (.*) : 아무 문자열
+			// (.*) : 아무 문자열 (Dot : Matches any character except line breaks.)
 			const reg = /\[(.*)\]/g;
 			const s_expHistoryLabels = expHistoryLabels.match(reg);
 			const s_expColumns = expColumns.match(reg);
 			const p_expHistoryLabels = JSON.parse(s_expHistoryLabels);
 			const p_expColumns = JSON.parse(s_expColumns);
-			console.log(p_expHistoryLabels.length + p_expColumns[0].length);
+
 			const expPrint = [];
 			for (var i = 0; i < p_expHistoryLabels.length; i++) {
 				const expDate = p_expColumns[0][i + 1];
@@ -55,6 +55,7 @@ module.exports = {
 				const expPercent = p_expHistoryLabels[i].exp;
 				expPrint.push('\n' + expDate + ' : ' + expLevel + '레벨 (' + expPercent + '%)');
 			}
+			console.log('undefined(' + interaction.id + ') ' + interaction.user.tag + ' interaction: history');
 			await interaction.update({ content: msg + '\n' + expPrint, components: [] });
 		}
 	},
