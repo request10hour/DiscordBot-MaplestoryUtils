@@ -1,9 +1,9 @@
 const fs = require('node:fs'); // fs is Node's native file system module.
 const path = require('node:path'); // path is Node's native path utility module.
-const { Client, Collection, GatewayIntentBits } = require('discord.js');
+const { Client, Collection, GatewayIntentBits, MessageCollector } = require('discord.js');
 const { token } = require('./config.json');
 // https://discordjs.guide/popular-topics/intents.html#enabling-intents
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
 client.commands = new Collection(); // Collection is a class that extends JavaScript's native Map
 

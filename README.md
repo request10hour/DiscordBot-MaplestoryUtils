@@ -70,3 +70,10 @@ ctrl shift p -> reload window
 
 9. 정규식 regex를 이용한 문자열 검색, 조작 - 보스, 무릉, 히스토리 검색에서 사용
 10. pm2를 사용해서 (discordjs 공식문서에서 권장) 프로세스 실행 관리
+11. 메세지 컨텐츠 (명령어 아님)을 읽어오기 위해서
+	```
+	1. discord developers portal 에서 봇의 message intent 권한 설정
+	2. client 에 [GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] intent 추가
+	intent calculator 참고 (https://discord-intents-calculator.vercel.app/)
+	3. 이벤트 수신기 이름은 'messageCreate'
+	```
