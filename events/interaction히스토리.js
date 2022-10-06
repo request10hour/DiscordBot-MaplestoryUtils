@@ -1,5 +1,6 @@
 const { default: axios } = require('axios');
 const cheerio = require('cheerio');
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 module.exports = {
 	name: 'interactionCreate',
@@ -7,6 +8,13 @@ module.exports = {
 	 * @param {import("discord.js").Interaction} [interaction]
 	 */
 	async execute(interaction) {
+		const row0 = new ActionRowBuilder().addComponents(
+			new ButtonBuilder()
+				.setCustomId('최신정보가아니에요')
+				.setLabel('최신정보가아니에요')
+				.setStyle(ButtonStyle.Danger)
+				.setEmoji('🔁'),
+		)
 		if (!interaction.isButton()) return;
 		if (interaction.customId === '경험치히스토리') {
 			const msg = interaction.message.toString();
@@ -55,7 +63,7 @@ module.exports = {
 				const expPercent = p_expHistoryLabels[i].exp;
 				expPrint.push('\n' + expDate + ' : ' + expLevel + '레벨 (' + expPercent + '%)');
 			}
-			await interaction.update({ content: msg + '\n' + expPrint, components: [] });
+			await interaction.update({ content: msg + '\n' + expPrint, components: [row0] });
 		}
 	},
 };

@@ -11,7 +11,6 @@ module.exports = {
 		if (!interaction.isButton()) return;
 		if (interaction.customId === '최신정보가아니에요') {
 			const charname = interaction.message.toString().split('\n')[0].split(' ')[1];
-			interaction.message.delete();
 			const row = new ActionRowBuilder().addComponents(
 				new ButtonBuilder()
 					.setCustomId('경험치히스토리')
@@ -37,13 +36,13 @@ module.exports = {
 				elements.each((idx, el) => {
 					out.push($(el).text().replaceAll(' ', ''));
 				})
-				await interaction.reply({
+				await interaction.update({
 					content:
 						`**이름** ${namesection.eq(1).text()}\n**직업** ${out[1]}\n**서버** ${namesection.eq(0).attr('alt')}\n\
 ${out[0]}`, files: [charimage.attr('src')], components: [row, row0]
 				});
 			} catch (error) {
-				await interaction.reply('검색 오류');
+				await interaction.update('검색 오류');
 			}
 		}
 	},
