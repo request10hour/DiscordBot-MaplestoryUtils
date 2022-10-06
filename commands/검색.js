@@ -1,3 +1,5 @@
+const { default: axios } = require('axios');
+const cheerio = require('cheerio');
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
@@ -12,6 +14,13 @@ module.exports = {
 	 * @param {import("discord.js").Interaction} [interaction]
 	 */
 	async execute(interaction) {
-		await interaction.reply({ content: `https://www.google.com/search?q=${interaction.options.getString('구글_검색').replaceAll(' ', '%20')}` })
+		const search = interaction.options.getString('구글_검색');
+		const url = `https://www.google.com/search?q=${encodeURI(search)}`;
+		// console.log(url);
+		// const resp = await axios.get(`${url}&tbm=isch`);
+		// console.log(`${url}&tbm=isch`);
+		// const $ = cheerio.load(resp.data);
+		// console.log($('img').prop('src'));
+		await interaction.reply({ content: search + ' : ' + url, files: [] })
 	},
 };

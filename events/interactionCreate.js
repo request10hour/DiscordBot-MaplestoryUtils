@@ -6,6 +6,7 @@ module.exports = {
 	 * @param {import("discord.js").Interaction} [interaction]
 	 */
 	execute(interaction) {
+	if(!(!interaction.channel || !interaction.guild))
 		console.log(`[\'${new Intl.DateTimeFormat('kr', {dateStyle: 'medium', timeStyle: 'medium'}).format(date)}\', \
 \'${interaction.user.tag}\', \'#${interaction.channel.name}\', \'${interaction.guild.name}\', \
 \'${interaction.commandName === undefined ? interaction.customId : interaction.commandName}\'],`);
