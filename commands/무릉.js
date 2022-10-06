@@ -49,7 +49,6 @@ module.exports = {
 				await interaction.reply('무릉 데이터 없음');
 			}
 			else {
-				console.log(error);
 				await interaction.reply('검색 오류');
 			}
 		}
