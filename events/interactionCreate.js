@@ -1,5 +1,3 @@
-const date = new Date();
-
 module.exports = {
 	name: 'interactionCreate',
 	/**
@@ -21,7 +19,7 @@ module.exports = {
 			for (i in interaction.options._hoistedOptions)
 				iOptionvalue.push(interaction.options._hoistedOptions[i].value);
 		}
-
+		const date = new Date();
 		console.log(`[\'${new Intl.DateTimeFormat('kr', { dateStyle: 'medium', timeStyle: 'medium' }).format(date)}\', \
 \'${interaction.user.tag}\', \'#${iChannelname}\', \'${iGuildname}\', \
 \'${interaction.commandName === undefined ? interaction.customId : interaction.commandName}\', \'${iOptionvalue}\'],`);
