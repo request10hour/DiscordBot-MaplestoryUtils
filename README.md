@@ -77,3 +77,4 @@ ctrl shift p -> reload window
 	intent calculator 참고 (https://discord-intents-calculator.vercel.app/)
 	3. 이벤트 수신기 이름은 'messageCreate'
 	```
+12. favicon은 홈페이지의 메인 아이콘...https://maplestory.nexon.com/favicon.ico과 같이 접근 가능
